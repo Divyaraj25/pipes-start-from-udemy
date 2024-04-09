@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'filter'
+  name: 'filter',
+  pure:false // this lead to low performance as it is not pure, and it checks each time the list changes
 })
 export class FilterPipe implements PipeTransform {
 
