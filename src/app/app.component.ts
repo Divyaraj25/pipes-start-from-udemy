@@ -28,7 +28,7 @@ export class AppComponent {
     {
       instanceType: 'small',
       name: 'Testing Environment Server',
-      status: 'stable',
+      status: 'critical',
       started: new Date(15, 1, 2017)
     }
   ];
